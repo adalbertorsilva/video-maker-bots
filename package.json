@@ -1,0 +1,41 @@
+{
+  "name": "video-maker-bots",
+  "version": "1.0.0",
+  "description": "A serie os bots whose search for a theme, create sentences, get images, create a video a upload to youtube",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adalbertorsilva/video-maker-bots.git"
+  },
+  "keywords": [
+    "Video",
+    "images",
+    "watson",
+    "bots",
+    "youtube",
+    "google"
+  ],
+  "author": "Adalberto Júnior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adalbertorsilva/video-maker-bots/issues"
+  },
+  "homepage": "https://github.com/adalbertorsilva/video-maker-bots#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "prettier": "^1.17.0"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  }
+}
