@@ -9,7 +9,9 @@ const askAndReturnPrefix = () => {
 };
 
 const userInput = () => {
-  const content = {};
+  const content = {
+    maximumSentences: 7
+  };
   content.searchTherm = askAndReturnSeachTherm();
   content.prefixes = askAndReturnPrefix();
 
